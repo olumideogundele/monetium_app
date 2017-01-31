@@ -13,9 +13,9 @@
     <gap:platform name="android" />
     <gap:platform name="winphone" />
 	
-    <name>Monetium Store Audit</name>
+    <name>Monetium REXAUDITZ</name>
     <description>Punch in made easy</description>
-    <author href="http://monitiummobile.rexauditz.com/" email="info@rexauditz.com">Olumide Francis</author>
+    <author href="http://www.online.shiftclocker.com" email="info@shiftclocker.com">Olumide Francis</author>
     <!--<content src="index.html" />-->
     <preference name="permissions" value="none" />
 	<preference name="android-build-tool" value="gradle" />
@@ -32,17 +32,20 @@
 	<preference name="ErrorUrl" value="error.html" />
 
 	<preference name="disable-cursor" value="false" />
-    <preference name="android-minSdkVersion" value="3" />
-    <preference name="android-targetSdkVersion" value="23" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-targetSdkVersion" value="19" />
     <preference name="android-installLocation" value="auto" />
- 
+	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
    
  
     <gap:plugin name="org.apache.cordova.console" source="npm" />
-   <gap:plugin name="org.apache.cordova.device" source="npm" />
+ 
+    <gap:plugin name="org.apache.cordova.device" source="npm" />
     <gap:plugin name="org.apache.cordova.device-motion" source="npm"/>
     <gap:plugin name="org.apache.cordova.device-orientation" source="npm"/>
     <gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
+    <gap:plugin name="org.apache.cordova.file" source="npm"/>
+    <gap:plugin name="org.apache.cordova.file-transfer" source="npm"/>
     <gap:plugin name="org.apache.cordova.globalization" source="npm"/>
     <gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
     <gap:plugin name="org.apache.cordova.media" source="npm"/>
