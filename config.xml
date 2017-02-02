@@ -37,7 +37,8 @@
     <preference name="android-installLocation" value="auto" />
 	<gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
    
- 
+     <gap:plugin name="org.apache.cordova.camera" source="npm"/>
+    <gap:plugin name="org.apache.cordova.media-capture" source="npm"/>
     <gap:plugin name="org.apache.cordova.console" source="npm" />
  
     <gap:plugin name="org.apache.cordova.device" source="npm" />
@@ -93,7 +94,7 @@
 
     <gap:plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/>
     <gap:plugin name="cordova-plugin-geolocation" source="npm"/>
-	 
+	 		<feature name="http://api.phonegap.com/1.0/camera" />
 		<feature name="http://api.phonegap.com/1.0/file" />
 		<feature name="http://api.phonegap.com/1.0/geolocation" />
 		<feature name="http://api.phonegap.com/1.0/media" />
